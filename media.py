@@ -1,0 +1,12 @@
+nome=str(input("Digite seu nome: "))
+idade=float(input("Digite sua idade: "))
+sexo=str(input("Digite seu sexo: "))
+nota1=float(input("Digite a primeira nota: "))
+nota2=float(input("Digite a segunda nota: "))
+media=(nota1+nota2)/2
+print("\nNome:", nome)
+print("Idade:", idade)
+print("Sexo:", sexo)
+print("Primeira nota: %.2f"% nota1)
+print("Segunda nota: %.2f"% nota2)
+print("Média: %.2f"% media)
